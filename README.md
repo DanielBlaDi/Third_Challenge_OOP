@@ -221,7 +221,7 @@ if __name__ == "__main__":
         print(figure.compute_interference_point(interference_point = interference__point))
 
 ```
-### Also, we have to define the class line, and we had to create methods for calculate her slope, lenght, compute horizontal cross
+### Also, we have to define the class line, and we had to create methods for calculate her slope, length, compute horizontal cross
 compute vertical cross.
 
 
@@ -318,8 +318,11 @@ class Line:
           return "There doesn't exist an intersection with the y-axis"
 
 
- Linea = Line(start_point=Point(x=int(input("Enter the coordinate in x1 of the point: ")), y=int(input("Enter the coordinate in y1 of the point: "))), end_point=Point(x=int(input("Enter the coordinate in x2 of the point: ")), y=int(input("Enter the coordinate in y2 of the point: "))))
-    print(Linea.slope, Linea.length, Linea.x_cross, Linea.y_cross)
+Linea = Line(start_point=Point(x=int(input("Enter the coordinate in x1 of the point: ")), y=int(input("Enter the coordinate in y1 of the point: "))), end_point=Point(x=int(input("Enter the coordinate in x2 of the point: ")), y=int(input("Enter the coordinate in y2 of the point: "))))
+print("His length is: ", Linea.length)
+print("His slope is: ", Linea.slope)
+print(Linea.x_cross)
+print(Linea.y_cross)
 ```
 
 ## Once we have the class line, we could define a rectangle or a square like a composition of lines
