@@ -216,5 +216,3 @@ if __name__ == "__main__":
         print(interference__point.x, interference__point.y)
         print(figure.compute_interference_point(interference_point = interference__point))
 
-    Linea = Line(start_point=Point(x=int(input("Enter the coordinate in x1 of the point: ")), y=int(input("Enter the coordinate in y1 of the point: "))), end_point=Point(x=int(input("Enter the coordinate in x2 of the point: ")), y=int(input("Enter the coordinate in y2 of the point: "))))
-    print(Linea.slope)
