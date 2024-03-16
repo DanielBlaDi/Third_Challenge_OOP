@@ -358,7 +358,9 @@ elif method == 4:
 
 
 
-## Restaurant scenario
+
+
+# Restaurant scenario
 In this excercise we have to:
 
 -Define a base class MenuItem: This class should have attributes like name, price, and a method to calculate the total price.                                           
